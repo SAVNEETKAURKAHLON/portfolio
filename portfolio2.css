@@ -21,6 +21,9 @@ body{
 .container{
     padding: 10px 10%;
 }
+.container2{
+    padding: 10px 10%;
+}
 .test-container{
     position: relative;
 }
@@ -83,10 +86,10 @@ nav ul li a:hover::after{
     /* margin-left: 14%; */
 }
 .container{
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 #about{
-    padding: 10px 0;
+    padding: 0 0;
     color: #ababab;
 }
 .row{
@@ -96,6 +99,18 @@ nav ul li a:hover::after{
 }
 .about-col1{
     flex-basis: 35%;
+}
+.logo-list{
+    display: flex;
+    list-style-type: none;
+    gap: 4%;
+    justify-content: center;
+}
+.ide{
+    margin-top: 5%;
+}
+.technologies-learnt{
+    padding: 10%;
 }
 .about-col2{
     flex-basis: 60%;
